@@ -9,4 +9,3 @@ interface WeatherServiceApi {
         @Query("exclude") exclude: String = "minutely,alerts",
     ): T
 }
-
